@@ -12,7 +12,7 @@ def main(infile):
     line_count(infile)
 
 
-if __name__ == "__main__" and sys.stdin.isatty():
+if __name__ == "__main__":
     # Create your argument parser object here.
     # Collect the filename argument from the command line
     # pass this argument to the main function above
