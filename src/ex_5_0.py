@@ -1,9 +1,9 @@
 """ex_5_0.py"""
-
+import sys
 
 def line_count(infile):
-    pass
-
+    file = open(infile, "r")
+    print(len(file.readlines()))
 
 if __name__ == "__main__":
     # get the utility function for path discovery
